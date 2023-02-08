@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="615.5473108868048" y="-182.01093613298337">AgeRange</node>
+    <node x="-62.688909464769324" y="44.157480314960594">Constructor</node>
+    <node x="-35.68890946476927" y="-70.36570428696422">Blocks</node>
+    <node x="-23.688909464769267" y="-196.6780402449694">Doll</node>
+    <node x="-21.68890946476938" y="170.46981627296583">Ball</node>
+    <node x="566.0473108868048" y="84.85608048993875">Main</node>
+    <node x="254.31109053466975" y="0.15748031496059411">Toy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Blocks" target="Toy" relationship="GENERALIZATION">
+      <point x="-9.026869884110056E-5" y="-49.99999999999997" />
+      <point x="78.81100026653189" y="-7.0" />
+      <point x="223.81109053495015" y="-7.0" />
+      <point x="223.81109053495015" y="-32.5" />
+      <point x="224.0" y="-32.5" />
+      <point x="224.0" y="94.1574803149606" />
+      <point x="-97.00009053466974" y="0.0" />
+    </edge>
+    <edge source="Doll" target="Toy" relationship="GENERALIZATION">
+      <point x="-9.026869884110056E-5" y="-50.0" />
+      <point x="84.81100026653189" y="-101.8390201224847" />
+      <point x="223.81109053495015" y="-101.8390201224847" />
+      <point x="223.81109053495015" y="-32.5" />
+      <point x="224.0" y="-32.5" />
+      <point x="224.0" y="94.1574803149606" />
+      <point x="-97.00009053466974" y="0.0" />
+    </edge>
+    <edge source="Ball" target="Toy" relationship="GENERALIZATION">
+      <point x="-9.053418636995048E-5" y="49.999999999999986" />
+      <point x="85.81100000104425" y="190.5" />
+      <point x="224.0" y="190.5" />
+      <point x="224.0" y="94.1574803149606" />
+      <point x="-97.00009053466974" y="0.0" />
+    </edge>
+    <edge source="Constructor" target="Toy" relationship="GENERALIZATION">
+      <point x="127.99990946476933" y="0.0" />
+      <point x="-97.00009053466974" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7422077922077922" showDependencies="false" x="550.7366579177602" y="-3.0069991251093597" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
